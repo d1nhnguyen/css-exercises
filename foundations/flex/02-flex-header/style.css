@@ -3,6 +3,8 @@
   background: papayawhip;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -26,25 +28,11 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  margin: 10px;
-}
-
-.logo {
-  height: 0.5%;
-  margin: 10px;
-}
-
-.left-links{
-  margin-right: auto;
-  
-}
-
-.right-links {
-  margin-left: auto;
 }
 
 ul {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
